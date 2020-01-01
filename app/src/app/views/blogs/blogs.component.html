@@ -1,0 +1,91 @@
+<app-navblog></app-navblog>
+
+<section class="container mt-5">
+       <div class="row">
+           <div class="col-md-4 col-12" >
+          <div class="input-group mb-3 col pb-5  ">
+                    <input type="text" class="form-control" placeholder="Enter E-mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-g" type="button"><i class="fas fa-search "></i></button>
+                    </div>
+                  </div>
+
+                  <div class="card" style="max-width: 300px;">
+                               
+                        <div class="card-body " > 
+                                <div class="d-flex justify-content-center pt-2 pb-3" >
+                                        <img src="../../../assets/p3.jpg" class="rounded-circle" style="max-height: 100px; max-width: 100px;" >
+                                    </div> 
+                            
+                          <h5 class="card-title d-flex justify-content-center">About Author</h5>
+                          <h6 class="card-text text-muted offset-1  ">Progravida nibh vel velit auctor alinean sollicitudin, 
+                              lorem quis bibendum auctor, nisi elit consequat.</h6>
+                           
+                         
+                        </div>
+                      </div>
+
+                </div>
+
+            
+                <div class="col-md-7 col-12" >
+                    <img src='../../../assets/s3.jpg' style="max-width: 800px;">
+           
+                </div>
+
+     
+        </div>
+
+        <div class="row">
+
+                <div class="col-md-8 col-12">
+                    <span><h2>Fully dedicated finding </h2></span>
+                        <p class="offset-1 text-muted">   Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,Lorem Ipsum.lorem quis bibendum auctor. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,Lorem Ipsum.lorem quis bibendum auctor. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor, 
+                            nisi elit consequat ipsum,Lorem Ipsum.lorem quis bibendum auctor. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,Lorem Ipsum.lorem quis bibendum auctor. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,Lorem Ipsum.lorem quis bibendum auctor.
+   
+                           Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,Lorem Ipsum.lorem quis bibendum auctor.
+                       
+                        </p>
+                       </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-12 mr-5">
+            <h4 >Categories</h4>
+           <div class="row" *ngFor = 'let data of data1'>
+            <span class="col-6">{{data.title}}</span>
+             <button class="btn-circle  ml-auto">{{data.description}}</button>
+            </div>
+        </div>
+
+        <div class="col-md-7 col-12 blog mt-5 ">
+
+                <h4 class="text-light mt-3">
+                 Nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+               <h6 class="text-muted par ">Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,Lorem Ipsum.lorem quis bibendum auctor.</h6>
+                </h4>
+                <hr>
+
+                <div class="row ">
+                     
+                        <div class="x">
+                                <i class="far fa-thumbs-up "></i> 
+                                <span class="mr-5 mt-2">90</span>
+                           </div>
+                                    
+                            
+                                
+                             <div class="x">
+                                    <i class="far fa-comment"></i>
+                                    <span class="mt-2">120</span>
+                             </div>
+                </div>
+
+               
+
+        </div>
+        </div>
+
+</section>
+<app-discuss></app-discuss>
+<app-footernew></app-footernew>

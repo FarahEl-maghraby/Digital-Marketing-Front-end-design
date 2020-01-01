@@ -1,0 +1,46 @@
+.video1{
+    position: relative;
+    background: url(../../../assets/v.png);
+    height: 500px;
+    background-repeat:no-repeat; 
+    
+}
+
+.modal-content {
+    border: none;
+    padding: 0%;
+    background-color: transparent;
+
+}
+
+.modal-header{
+    border: none;
+}
+
+.btnModal{
+    width: 70px;
+    height: 70px;
+    padding: 6px 0px;
+    border-radius: 35px;
+    color: white;
+    margin-top: 15%;
+    margin-left: 35%;
+    background-color: #7c60d5;
+}
+
+.btnModal:hover{
+    background-color: #33e2a0;
+}
+.btnClose{
+    width: 70px;
+    height: 70px;
+    padding: 6px 0px;
+    border-radius: 35px;
+    color: white;
+}
+
+.videoo{
+    background-image: url(../../../assets/video-bottom.jpg);
+    height: 500px;
+
+}

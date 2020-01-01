@@ -1,0 +1,16 @@
+h4{
+    color:#7c60d5
+}
+
+h6 {
+  color: black;
+}
+
+h4:hover , .x:hover{
+    color: #33e2a0;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px 10px lightgray;
+}
+

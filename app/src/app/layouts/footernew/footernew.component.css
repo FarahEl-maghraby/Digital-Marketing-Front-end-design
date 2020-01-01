@@ -1,0 +1,98 @@
+.footer{
+    background-color: #edecf0;
+    height: 300px;
+    margin-top: 5%;
+    border-radius: 30px 30px 0 0;
+}
+
+span ,p{
+    font-family: 'Patua One', cursive;
+ }
+
+ .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #7c60d5;
+    border-radius: 20%;
+    display: inline-block;
+  }
+
+  .icon{
+      color:#22105d
+  }
+
+  .liAbout{
+      color:#7c60d5
+  }
+  .liAbout:hover , .twitter{
+    color: #33e2a0; 
+  }
+  
+
+  .icon:hover  {
+      color: #33e2a0;
+      animation: 1s fadein;
+  }
+
+  @keyframes fadein{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+
+
+
+/* General CSS Setup */
+body{
+    background-color: lightblue;
+    font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+  }
+  
+  /* container */
+  .container {
+    padding: 5% 5%;
+  }
+  
+  /* CSS talk bubble */
+  .talk-bubble {
+      margin: 40px;
+    display: inline-block;
+    position: relative;
+      width: 500px;
+      height: auto;
+      background-color: #e5e5e5;
+  }
+ 
+  .round{
+    border-radius: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+  
+  }
+
+  .tri-right.btm-left:after{
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+      left: 0px;
+    right: auto;
+    top: auto;
+      bottom: -20px;
+      border: 22px solid;
+      border-color: transparent transparent transparent #e5e5e5;
+  }
+    
+
+  /* talk bubble contents */
+  .talktext{
+    padding: 1em;
+      text-align: left;
+    line-height: 1.5em;
+  }
+  .talktext p{
+    /* remove webkit p margins */
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }

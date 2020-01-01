@@ -1,0 +1,32 @@
+input ,textarea{
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    padding: 20px;
+}
+
+textarea{
+    resize: none;
+    text-decoration: none;
+}
+
+input:hover,textarea:hover{
+    border-color:#7c60d5; 
+    text-decoration: none;
+}
+
+h3{
+    font-family: 'Patua One', cursive;
+}
+
+.btn {
+    border-radius: 50px; 
+    border: 1px solid #7c60d5;
+    background-color:  #33e2a0;
+    padding: 20px;
+    
+    
+  }
+
+  .btn:hover{
+      background-color: #ffe2ec;
+  }

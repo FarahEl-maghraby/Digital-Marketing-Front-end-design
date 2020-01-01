@@ -1,0 +1,21 @@
+.first{
+    background-color: #7c60d5;
+}
+
+.home , i:hover , .homeHover:hover {
+color: #33e2a0;
+}
+
+.homeHover{
+    color: white;
+}
+
+
+.height{
+    background-color: #7c60d5;
+    height: 200px;  
+}
+
+hr{
+    border: solid 0.5px white
+}

@@ -1,0 +1,42 @@
+.btn-circle {
+    width: 20px;
+    height: 20px;
+    padding: 3px 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    background-color: #33e2a0;
+}
+
+.bgColor{
+    background-color: #7c60d5;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px 10px lightgray;
+    top: -5px;
+}
+
+
+.btn {
+  border-radius: 4px; 
+  border: 1px solid #7c60d5;
+  padding: 1rem 2rem;
+  background-size: 300%;
+  transition: all 0.6s;
+  
+}
+
+.mint {
+  color: black;
+    background-image: linear-gradient(90deg, white 50%, #33e2a0 50%);
+}
+
+
+.btn:hover {
+  color: #fff;
+  background-position: 100%;
+ 
+}
+

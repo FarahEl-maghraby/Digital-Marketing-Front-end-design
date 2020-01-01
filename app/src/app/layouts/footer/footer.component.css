@@ -1,0 +1,36 @@
+.footer{
+    background-image: url(../../../assets//footer.jpg);
+    height: 150px;
+  
+}
+
+.footerrow{
+    background-color: #7c60d5;
+    height: 320px;
+  
+ 
+}
+
+.btn {
+    border-radius: 50px; 
+    border: 1px solid #7c60d5;
+    background-color:  #33e2a0;
+    padding: 20px;
+    
+    
+  }
+
+  .btn:hover{
+      background-color: #ffe2ec;
+  }
+
+  span ,h5{
+    font-family: 'Patua One', cursive;
+  }
+
+  .example-full-width {
+    width: 100%;
+  }
+  
+ 
+  

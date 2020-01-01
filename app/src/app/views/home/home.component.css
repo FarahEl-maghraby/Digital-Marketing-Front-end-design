@@ -1,0 +1,110 @@
+.height{
+    background-color: #7c60d5;
+    height: 550px;  
+  
+}
+.img1{
+    animation: 5s fadein;
+}
+
+.top{
+    margin-top: 15%;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+button {
+   background-color:  #33e2a0;
+   border-radius: 25px;
+}
+
+button:hover{
+    background-color: #6934ca;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.img1:hover{
+    position: relative; 
+    top: -5px;
+}
+
+.icon{
+    background-color:#7c60d5;
+    width: 70px;
+    height: 70px;
+    padding: 6px 0px;
+    border-radius: 35px;
+    color: white;
+}
+
+.cardModified:hover  {
+  
+   box-shadow: 5px 5px 5px 5px lightgray ;
+   color: #33e2a0 ;
+}
+
+
+h2{
+    font-family: 'Patua One', cursive;
+}
+
+
+
+.btnClose{
+    width: 70px;
+    height: 70px;
+    padding: 6px 0px;
+    border-radius: 35px;
+    color: white;
+}
+
+.card{
+    background-color: transparent;
+    position: relative;
+}
+
+#div1{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 0;
+    left: 0;
+    background-color: #6934ca;
+}
+
+.team{
+    background-image: url(../../../assets/vb.jpg);
+}
+/*e3ne div1 awza animation e7sl 3alaa*/
+.card-body:hover + #div1{
+    display: block;
+    animation: 1s fadein;
+
+}
+#div1:hover{
+    display: block; 
+}
+
+ i:hover  {
+    color: #33e2a0;
+    }
+
+@keyframes fadein{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+
+  

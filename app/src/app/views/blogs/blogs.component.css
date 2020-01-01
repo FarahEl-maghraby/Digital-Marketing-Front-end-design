@@ -1,0 +1,61 @@
+
+input {
+    border-radius: 50px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px #b7adda;
+}
+
+button{
+    box-shadow: 5px 5px 5px 5px #b7adda;
+}
+
+.btn-g{
+    background-color: #33e2a0;
+    border-radius: 50px;
+    padding-right: 30px;
+}
+
+.btn-g:hover{
+    background-color: #b7adda;
+}
+
+h6 ,p ,h4 ,small,h2,span{
+    font-family: 'Patua One', cursive;
+    line-height: 2.5;
+}
+
+h4:hover{
+    color:#7c60d5
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    border: 3px;
+    border-color:  #7c60d5;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    background-color:#7c60d5
+
+}
+
+.btn-circle:hover{
+    background-color: #33e2a0;
+}
+
+.blog{
+    background-color: #33e2a0;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.par{
+    margin-top: 10%;
+}
+
+.x:hover{
+    color: #33e2a0;
+}

@@ -1,0 +1,34 @@
+.slider{
+   background-color: #e5e5e5;
+   height: 700px;
+}
+
+.image{
+    width: 10%;
+ 
+ animation: zoominoutsinglefeatured 5s infinite ;
+    
+}
+
+h4 ,h3{
+    font-family: 'Patua One', cursive;
+}
+
+h3{
+    color: #7c60d5;
+}
+
+
+@keyframes zoominoutsinglefeatured {
+    /* 3ashn 3ar3bt a5dyha ala 3 times*/
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+

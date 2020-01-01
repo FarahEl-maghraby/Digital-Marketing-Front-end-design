@@ -1,0 +1,40 @@
+.navContact{
+    background-color: #eeeeee;
+    height: 500px;
+   
+   
+}
+
+.text-contact{
+    margin-top: -5%; 
+}
+.img-contact{
+    margin-top: -50%;
+    z-index: 999;
+    position: relative;
+    
+}
+
+.first{
+    background-color: #7c60d5;
+}
+
+.first{
+    background-color: #7c60d5;
+}
+
+.contact, .homeHover:hover {
+color: #33e2a0;
+}
+
+.homeHover{
+    color: #7c60d5;
+}
+
+h1{
+    font-family: 'Patua One', cursive;
+}
+
+
+
+
